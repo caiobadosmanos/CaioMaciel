@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: rgb(18,18,18);
+    color: rgb(240,240, 240);
+    padding: 0; /* Remove qualquer padding extra */
+    margin: 0;  /* Remove qualquer margem extra */
+}
+
+#title {
+    text-align: center;
+    padding-top: 30px; /* Aumenta o padding para dar mais espaço dentro */
+    padding-bottom: 40px;
+}
+
+#indices {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    background-color: rgb(18,18,18);
+}
+
+.indices {
+    margin: 0px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: rgb(18,18,18);
+}
+#intro{
+    text-align: center;
+    line-height: 0.8; /* Ajusta o espaçamento entre as linhas */
+    padding-bottom: 45px;
+    color: rgb(100,100,100);
+    background-color: rgb(18,18,18);
+
+
+}
+#name{
+    text-align: center;
+    padding: 10px;
+}
+br{
+    margin:0px;
+    padding:0px;
+}
+#sobre-mim{
+    padding:170px;
+
+}
+#tsobre-mim{
+    padding-bottom: 50px;
+
+}
+#img2{
+            background-image: url('img2.jpg'); /* Define a imagem como fundo */
+            background-size: cover; /* Faz a imagem cobrir todo o fundo */
+            background-position: center; /* Centraliza a imagem no fundo */
+            background-attachment: fixed; /* Fixa a imagem para não rolar com o conteúdo */
+            height: 100vh; /* Garante que o fundo ocupe toda a altura da tela */
+            margin: 0; /* Remove margens padrões */
+}
+p{
+    background-color:white;
+}
+#projetos{
+    background-color: rgb(18,18,18);
+    text-align:center;
+
+    color: rgb(240,240, 240);
+    padding:20px;
+}
+a{
+    text-decoration: none;
+
+    color: rgb(240,240, 240);
+
+
+}
+.preto{
+    background-color: rgb(18,18,18);
+
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+#descripition{
+    color: rgb(100,100,100);
+}
+#PRO{
+
+}
+#contato{
+    padding:170px;
+    color: black;
+
+}
+footer{
+    text-align:center;
+    padding:20px;
+}
