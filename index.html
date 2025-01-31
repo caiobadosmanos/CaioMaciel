@@ -3,93 +3,76 @@
 
 <head>
     <meta name="viewport" content="initial-scale=1, width=device-width">
-    <title>Portifólio </title>
+    <title>Portfólio</title>
     <link href="static/styles.css" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
-   <header class="header">
-    <div id="indices">
-        <h3 id="Sobre" class="indices">Sobre Mim</h3>
-        <h3 id="Projetos" class="indices">Projetos</h3>
-        <h3 id="Habilidades" class="indices">Habilidades</h3>
-        <h3 id="Contatos" class="indices">Contatos</h3>
+    <header class="header">
+        <div id="indices">
+            <h3><a href="#sobre-mim" class="indices">Sobre Mim</a></h3>
+            <h3><a href="#projetos" class="indices">Projetos</a></h3>
+            <h3><a href="#contatos" class="indices">Contatos</a></h3>
 
-        <a id = "zap" class = "indices"href="https://wa.me/5531984217616" target="_blank">
+            <a id="zap" class="indices" href="https://wa.me/5531984217616" target="_blank">
+                <img src="static/image.png" alt="conversar" class="imagem-fixa" height="30vw">
+            </a>
+        </div>
+        <h1 id="title">Portfólio</h1>
+        <h3 id="name">Olá, Meu Nome é Caio!</h3>
+        <h4>
+            <p id="intro">
+                Sou alguém apaixonado por desafios e pela constante evolução no universo da programação e do design.
+                Estou sempre em busca de novas maneiras de inovar e otimizar soluções, seja no front-end, criando interfaces intuitivas, 
+                ou no back-end, implementando sistemas robustos. Acredito que a experiência do usuário deve ser sempre o foco principal, 
+                e estou comprometido em aprimorar cada projeto que desenvolvo.
+            </p>
+        </h4>
+    </header>
 
-
-        <img src="static/image.png" alt="conversar" class="imagem-fixa" height= "30vw">
-    </a>
+    <div id="img2">
+        <section id="sobre-mim">
+            <h2 id="tsobre-mim">Sobre Mim</h2>
+            <p>Olá, meu nome é <strong>Caio Ribeiro Maciel</strong>, sou desenvolvedor Full Stack e apaixonado por tecnologia e inovação...</p>
+        </section>
     </div>
-    <h1 id="title">Portifólio</h1>
-    <h3 id = "name">Olá, Meu Nome é Caio!</h3>
-    <h4>
-        <p id="intro">
-            <br>Sou alguém apaixonado por desafios e pela constante evolução no universo da</br>
-            <br>programação e do design. Estou sempre em busca de novas maneiras de inovar e otimizar</br>
-            <br>soluções, seja no front-end, criando interfaces intuitivas, ou no back-end, implementando</br>
-            <br>sistemas robustos. Acredito que a experiência do usuário deve ser sempre o foco principal,</br>
-            <br> e estou comprometido em aprimorar cada projeto que desenvolvo.</br>
+
+    <section id="projetos">
+        <h2 id="PRO">Projetos</h2>
+        <h3 id="descripition">A seguir Alguns Projetos que Estou trabalhando</h3>
+
+        <a href="https://recipes-maker.onrender.com/" class="botao" target="_blank">Gerador de receitas com AI 🤖</a>
+        <a href="https://beaglemg.onrender.com" class="botao" target="_blank">Site de Adoção 🐶</a>
+        <a href="https://caiogpt.onrender.com" class="botao" target="_blank">Caio Gpt 🧠</a>
+
+        <p class="preto" id="aviso">
+            obs: Por sobrecarga no servidor os projetos podem levar alguns segundos a mais para abrir.
         </p>
+    </section>
 
+    <section id="contatos">
+        <div id="contato">
+            <h2>Contrate-me!</h2>
+            <p>Se você está em busca de um profissional qualificado para criar soluções inovadoras para o seu projeto, estou à disposição...</p>
 
-    </h4>
-</header>
+            <p>Você pode entrar em contato comigo pelos seguintes meios:</p>
+            <a id="email" class="botao" href="mailto:caioba.maciel@gmail.com">caioba.maciel@gmail.com</a>
+            <a id="telefone" class="botao" href="tel:+5531984217616">(31) 98421-7616</a>
+        </div>
+    </section>
 
-<div id = "img2">
-<section id="sobre-mim">
-    <h2 id="tsobre-mim">Sobre Mim</h2>
-    <p>Olá, meu nome é <strong>Caio Ribeiro Maciel</strong>, sou desenvolvedor Full Stack e apaixonado por tecnologia e inovação. Trabalho como freelancer em TI e programação, criando soluções personalizadas para diversos tipos de negócios.</p>
-
-    <p>Minha jornada na programação começou há alguns anos, e desde então, me apaixonei pela criação de sistemas, websites e aplicativos que têm um impacto real no mundo. Tenho experiência em diversas linguagens de programação e ferramentas, com foco especial em <strong>Python</strong>, <strong>C++</strong>, <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
-
-    <p>Além disso, tenho grande interesse em projetos de automação e inteligência artificial, como também em tecnologias de impressão 3D e controle de hardware com Arduino. Sempre busco aprender algo novo e aprimorar minhas habilidades, seja em programação, design ou outras áreas da tecnologia.</p>
-
-    <p>Se você está procurando um profissional criativo, dedicado e sempre em busca da melhor solução para o seu projeto, estou pronto para colaborar e transformar suas ideias em realidade.</p>
-
-    <p>Entre em <d id ="contats">contato</d> comigo e vamos começar a criar algo incrível!</p>
-</section>
-</div>
-<section id="projetos">
-    <h2 id= "PRO">Projetos</h2>
-    <h3 id = "descripition">A seguir Alguns Projetos que Estou trabalhando</h3>
-
-
-    <a href="https://recipes-maker.onrender.com/" class="botao" target="_blank">Gerador de receitas com AI 🤖</a>
-    <a href="https://beaglemg.onrender.com" class="botao" target="_blank">Site de Adoção 🐶</a>
-    <a href="https://caiogpt.onrender.com" class="botao" target="_blank">Caio Gpt 🧠</a>
-    <p class="preto" id="aviso">
-        obs: Por sobrecarga no servidor os projetos podem levar alguns segundos a mais para abrir.
-    </p>
-</section>
-
-
-
-<section id = "contatos">
-
-
-
-
-    <div id="contato">
-
-<h2>Contrate-me!</h2>
-<div id="contratacao">
-    <p>Se você está em busca de um profissional qualificado para criar soluções inovadoras para o seu projeto, estou à disposição! Com experiência em diversas áreas de desenvolvimento e inteligência artificial, posso ajudar a transformar suas ideias em realidade. Entre em contato comigo e vamos conversar sobre como posso agregar valor ao seu negócio.</p>
-</div>
-
-    <p>Você pode entrar em contato comigo pelos seguintes meios:</p>
-  <a id = "email" class="botao"href="mailto:caioba.maciel@gmail.com">caioba.maciel@gmail.com</a>
-   <a  id = "telefone" class="botao"href="tel:+5531984217616">(31) 98421-7616</a>
-
-</div>
-</section>
-
-<footer class = "foot">Copyright 2025 - Caio Maciel</footer>
+    <footer class="foot">Copyright 2025 - Caio Maciel</footer>
 
 </body>
+
+</html>
+
 
 </html>
