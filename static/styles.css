@@ -125,3 +125,6 @@ footer{
     text-align:center;
     padding:20px;
 }
+html {
+            scroll-behavior: smooth;
+        }
